@@ -1,21 +1,23 @@
 # E-School_GreetGo
 
-1) Чтобы скачать с гитхаба проект запускаем команду:
-
+1) To download the project from github, run the command:
 ```
 git clone https://github.com/AxelrodAdil/E-School_GreetGo
 ```
 
-
-![get](/imgs/get.PNG
-
-2) Заходим в папку:
+2) Go to the folder:
 <a href="https://github.com/AxelrodAdil/E-School_GreetGo/blob/main/src/main/java/com/example/eschool_greetgo/">eschool_greetgo</a>
 
 
-3) запускаем ESchoolGreetgoApplication:
-https://github.com/AxelrodAdil/E-School_GreetGo/blob/main/src/main/java/com/example/eschool_greetgo/ESchoolGreetgoApplication.java
+3) Run <a href="https://github.com/AxelrodAdil/E-School_GreetGo/blob/main/src/main/java/com/example/eschool_greetgo/">eschool_greetgo/ESchoolGreetgoApplication.java</a>ESchoolGreetgoApplication</a>
 
-4) Ждём, когда запуститься сервер. После запуска сервера, заходим в браузере по адресу:
 
-5) Видим
+4) Waiting for the server to start. After starting the server, go to the browser at the address:
+```
+http://localhost:8080/
+```
+
+5) We see the home page. To pass verification and enter the system, you need to log in.
+
+
+![get](/imgs/get.PNG
