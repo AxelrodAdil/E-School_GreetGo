@@ -1,10 +1,17 @@
 # E-School_GreetGo
 
 1) Чтобы скачать с гитхаба проект запускаем команду:
+
+```
 git clone https://github.com/AxelrodAdil/E-School_GreetGo
+```
+
+
+![get](/imgs/get.PNG
 
 2) Заходим в папку:
-https://github.com/AxelrodAdil/E-School_GreetGo/blob/main/src/main/java/com/example/eschool_greetgo/
+<a href="https://github.com/AxelrodAdil/E-School_GreetGo/blob/main/src/main/java/com/example/eschool_greetgo/">eschool_greetgo</a>
+
 
 3) запускаем ESchoolGreetgoApplication:
 https://github.com/AxelrodAdil/E-School_GreetGo/blob/main/src/main/java/com/example/eschool_greetgo/ESchoolGreetgoApplication.java
