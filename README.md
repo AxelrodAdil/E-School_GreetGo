@@ -9,7 +9,7 @@ git clone https://github.com/AxelrodAdil/E-School_GreetGo
 <a href="https://github.com/AxelrodAdil/E-School_GreetGo/blob/main/src/main/java/com/example/eschool_greetgo/">eschool_greetgo</a>
 
 
-3) Run <a href="https://github.com/AxelrodAdil/E-School_GreetGo/blob/main/src/main/java/com/example/eschool_greetgo/">eschool_greetgo/ESchoolGreetgoApplication.java</a>ESchoolGreetgoApplication</a>
+3) Run <a href="https://github.com/AxelrodAdil/E-School_GreetGo/blob/main/src/main/java/com/example/eschool_greetgo/eschool_greetgo/ESchoolGreetgoApplication.java"</a>ESchoolGreetgoApplication</a>
 
 
 4) Waiting for the server to start. After starting the server, go to the browser at the address:
@@ -17,7 +17,10 @@ git clone https://github.com/AxelrodAdil/E-School_GreetGo
 http://localhost:8080/
 ```
 
-5) We see the home page. To pass verification and enter the system, you need to log in.
+5) We see the home page (index.html). To pass verification and enter the system, you need to log in.
+```
+E-mail: adil@edu.mail.com
+Password: adil
+```
 
-
-![get](/imgs/get.PNG
+![data](/images/data.PNG)
