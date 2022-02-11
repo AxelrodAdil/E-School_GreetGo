@@ -9,7 +9,7 @@ git clone https://github.com/AxelrodAdil/E-School_GreetGo
 <a href="https://github.com/AxelrodAdil/E-School_GreetGo/blob/main/src/main/java/com/example/eschool_greetgo/">eschool_greetgo</a>
 
 
-3) Run <a href="https://github.com/AxelrodAdil/E-School_GreetGo/blob/main/src/main/java/com/example/eschool_greetgo/eschool_greetgo/ESchoolGreetgoApplication.java">ESchoolGreetgoApplication</a>
+3) Run ESchoolGreetgoApplication
 
 
 4) Waiting for the server to start. After starting the server, go to the browser at the address:
