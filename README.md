@@ -26,3 +26,7 @@ Password: adil
 ![data](/images/data.PNG)
 
 **Passwords match the account owner's name**
+
+6) After successful login, we get to the СRUD application page (/users).
+
+**I'm sorry, but I get a 405 error when I try to run a post request. Therefore, update and saving requests do not work.**
