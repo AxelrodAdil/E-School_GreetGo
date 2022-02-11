@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Success!!!</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css"  th:href="@{/webjars/bootstrap/css/bootstrap.min.css}"  />
+    <style>
+        section{
+            color: #fff;
+            background: linear-gradient(-45deg, #EE7752, #E73C7E, #23A605, #23D5AB);
+            position: relative;
+        }
+    </style>
+</head>
+<body>
+<div class="container-fluid text-center">
+    <section>
+        <div><h1>Success!</h1></div>
+        <div>
+            <a class="h3" th:href="@{/users}">Click here to redirect.</a>
+        </div>
+    </section>
+</div>
+</body>
+</html>
