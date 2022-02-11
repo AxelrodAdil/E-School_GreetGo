@@ -24,3 +24,5 @@ Password: adil
 ```
 
 ![data](/images/data.PNG)
+
+**Passwords match the account owner's name**
