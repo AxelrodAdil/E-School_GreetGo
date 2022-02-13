@@ -7,10 +7,12 @@ git clone https://github.com/AxelrodAdil/E-School_GreetGo
 
 2) Go to the folder:
 <a href="https://github.com/AxelrodAdil/E-School_GreetGo/blob/main/src/main/java/com/example/eschool_greetgo/">eschool_greetgo</a>
+and Run ESchoolGreetgoApplication
 
-
-3) Run ESchoolGreetgoApplication
-
+3) Or you can run via command line - terminal (execute the command):
+```
+mvn spring-boot:run
+```
 
 4) Waiting for the server to start. After starting the server, go to the browser at the address:
 ```
