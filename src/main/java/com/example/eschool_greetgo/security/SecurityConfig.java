@@ -1,6 +1,5 @@
 package com.example.eschool_greetgo.security;
 
-import com.example.eschool_greetgo.service.CustomUserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -50,12 +49,25 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
                 .csrf().disable()
                 .authorizeRequests()
                 .antMatchers("/users").authenticated()
+                .antMatchers("/users/*").permitAll()
                 .anyRequest().permitAll()
                 .and()
                 .formLogin().usernameParameter("email").defaultSuccessUrl("/users").permitAll()
                 .and()
                 .logout().logoutSuccessUrl("/").permitAll();
 
-                //.httpBasic();
+
+
+
+
+        // For RestController!
+
+                /*.csrf().disable()
+                .authorizeRequests()
+                .antMatchers("/").permitAll()
+                .anyRequest()
+                .authenticated()
+                .and()
+                .httpBasic();*/
     }
 }

@@ -11,16 +11,14 @@ public class User {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    @Column(nullable = false, unique = true, length = 20)
+    @Column
     private String email;
-
-    @Column(length = 65, nullable = false)
+    @Column
+    private String first_name;
+    @Column
+    private String last_name;
+    @Column
     private String password;
-
-    @Column(length = 45, nullable = false, name = "first_name")
-    private String firstName;
-    @Column(length = 45, nullable = false, name = "last_name")
-    private String lastName;
 
     public Integer getId() {
         return id;
@@ -34,12 +32,12 @@ public class User {
         return password;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String getFirst_name() {
+        return first_name;
     }
 
-    public String getLastName() {
-        return lastName;
+    public String getLast_name() {
+        return last_name;
     }
 
     public void setId(Integer id) {
@@ -59,12 +57,12 @@ public class User {
         return new BCryptPasswordEncoder(12).encode(password);
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setFirst_Name(String firstName) {
+        this.first_name = firstName;
     }
 
-    public void setLastName(String lastName) {
-        this.lastName = lastName;
+    public void setLast_name(String last_name) {
+        this.last_name = last_name;
     }
 
     @Override
@@ -73,8 +71,8 @@ public class User {
                 "id=" + id +
                 ", email='" + email + '\'' +
                 ", password='" + password + '\'' +
-                ", firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
+                ", first_name='" + first_name + '\'' +
+                ", last_name='" + last_name + '\'' +
                 '}';
     }
 }

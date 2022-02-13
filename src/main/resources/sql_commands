@@ -3,3 +3,8 @@ INSERT INTO `bot`.`users` (`id`, `email`, `first_name`, `last_name`, `password`)
 INSERT INTO `bot`.`users` (`id`, `email`, `first_name`, `last_name`, `password`) VALUES ('3', 'test2@mail.com', 'Test', 'Test', '$2a$12$pDRXPlox.zTjEQGMH7PK2.pnJEVzdMKbf43Q5jXIP2J2reLGlEd/e');
 INSERT INTO `bot`.`users` (`id`, `email`, `first_name`, `last_name`, `password`) VALUES ('4', 'java@gmail.ru', 'Java', 'Java', '$2a$12$n65Xe8UlJq8cIIoQXEz60.VgoPzSNH6ScoG0Oozn6fXPLT0Jt6CjK');
 INSERT INTO `bot`.`users` (`id`, `email`, `first_name`, `last_name`, `password`) VALUES ('5', 'hello@mail.com', 'Hello', 'Hello', '$2a$12$HIi21pGjM5kj4nQTUwMucOnpY.Fp9ohrfdnVI4DOTQ92AdtLheg96');
+
+
+
+spring.jpa.hibernate.ddl-auto=update
+spring.jpa.properties.hibernate.show.sql=true
